@@ -1,0 +1,88 @@
+body{
+    background-color:aliceblue;
+    text-align:justify;
+}
+
+.subtitulo{
+    border-bottom:solid cadetblue;
+    margin: 2px;
+    background-color: rgba(221, 237, 250, 0.863);
+}
+
+.cabecalho{
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: rgba(221, 237, 250, 0.863);
+    border-bottom: solid cadetblue;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.paragrafo{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 500px;
+    margin-bottom: 30px;
+   
+}
+.paragrafoEspecial{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 500px;
+    margin-bottom: 10px;
+   
+}
+
+.imagemEu{
+    width: 30%;
+    border-radius: 100%;
+    margin-right: 40px;
+    display: inline;
+    
+}
+
+.quote{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    background-color: rgba(221, 237, 250, 0.863);
+}
+
+
+.menu li{
+    text-align: center;
+}
+
+.itemMenu{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: cadetblue;
+    background-color: rgba(221, 237, 250, 0.863);
+    font-weight: bolder;
+    padding: 4px;
+}
+
+.rodape{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: darkcyan;
+    padding-top: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}

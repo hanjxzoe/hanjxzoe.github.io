@@ -1,0 +1,126 @@
+body{
+    background-color:aliceblue;
+    text-align:justify;
+}
+
+.cabecalho{
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: rgba(221, 237, 250, 0.863);
+    border-bottom: solid cadetblue;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.imagemCabecalho{
+    width: 100%;
+}
+.subtitulo{
+    position: relative;
+    padding-left: 70px;
+    top: 10px;
+    border-bottom:solid cadetblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgba(221, 237, 250, 0.863);
+}
+
+.paragrafo{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+
+.imagem{
+    width: 200px;
+}
+
+.itens{
+    margin: 0 auto;
+    text-align: center;
+    width: 940px;
+}
+.itens li{
+    
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.itens li:hover{
+    padding: 5px;
+    background-color: rgba(221, 237, 250, 0.863);
+}
+
+
+.itens p{
+    font-size: 12px;
+    text-align: left;
+    width: 200px;
+    font-style: italic;
+
+}
+
+.itens li:hover p{
+    font-family: 'Franklin Gothic Medium';
+    color: cornflowerblue;
+
+}
+
+.opcoes1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    font-size: 18px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.opcoes{
+    font-size: 18px;
+    margin-left: 50px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.itemMenu {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+a:hover{
+    color: cadetblue;
+    font-weight: bolder;
+    background-color: rgba(221, 237, 250, 0.863);
+}
+
+
+div{
+    margin-bottom: 50px;
+}
+
+.rodape{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: darkcyan;
+    padding-top: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}

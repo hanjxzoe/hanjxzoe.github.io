@@ -1,0 +1,93 @@
+body{
+    background-color:aliceblue;
+    text-align:justify;
+}
+
+.cabecalho{
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: rgba(221, 237, 250, 0.863);
+    border-bottom: solid cadetblue;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.imagemCabecalho{
+    width: 100%;
+}
+.subtitulo{
+    position: relative;
+    padding-left: 70px;
+    top: 10px;
+    border-bottom:solid cadetblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgba(221, 237, 250, 0.863);
+}
+
+.paragrafo{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+
+.menu{
+    text-align: center;
+}
+
+.itemMenu{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: cadetblue;
+    background-color: rgba(221, 237, 250, 0.863);
+    font-weight: bolder;
+    padding: 4px;
+}
+
+div{
+    margin-bottom: 40px;
+}
+
+.quote{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    background-color: rgba(221, 237, 250, 0.863);
+    margin-bottom: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.rodape{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: darkcyan;
+    padding-top: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}

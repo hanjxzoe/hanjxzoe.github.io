@@ -1,0 +1,117 @@
+body{
+    background-color:aliceblue;
+    text-align:justify;
+}
+
+.cabecalho{
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: rgba(221, 237, 250, 0.863);
+    border-bottom: solid cadetblue;
+    padding: 4px;
+    padding-left: 20px; 
+}
+
+.subtitulo{
+    position: relative;
+    text-align: center;
+    top: 10px;
+    border-bottom:solid cadetblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgba(221, 237, 250, 0.863);
+}
+
+div{
+    margin-top: 100px;
+    margin-bottom:180px;
+}
+
+.paragrafo{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    margin-left: 350px;
+    margin-right: 35px;
+    text-align: justify;
+    color: black;
+    font-weight: bolder;
+   
+}
+.paragrafo p:hover{
+    color: cadetblue;
+}
+
+.menu li{
+    text-align: center;
+}
+
+.itemMenu{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: cadetblue;
+    background-color: rgba(221, 237, 250, 0.863);
+    font-weight: bolder;
+    padding: 4px;
+}
+
+.ref{
+    text-decoration: none;
+    color: black;
+}
+.ref:hover{
+    color: cornflowerblue;
+}
+
+
+
+.itemMenu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+.quote{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    background-color: rgba(221, 237, 250, 0.863);
+    margin-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.rodape{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: darkcyan;
+    padding-top: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
